@@ -1,24 +1,23 @@
-import logo from './logo.svg';
+
 import './App.css';
+import ListaDeTareas from './componentes/ListaDeTareas';
+import Tarea from './componentes/Tarea';
+import TareaFormulario from './componentes/TareaFormulario';
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container-app-tareas">
+      <div className='titulo'>
+        <h2>Organizador de tareas con React</h2>
+        <h3>por Juan Manuel Cabrera</h3>
+      </div>
+      <div className='tareas-lista-ppal'>
+        <h1>Mis tareas</h1>
+        <ListaDeTareas/>
+      </div>
     </div>
+    
   );
 }
 

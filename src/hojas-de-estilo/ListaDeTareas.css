@@ -1,0 +1,6 @@
+.tareas-lista-contenedor{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    flex-wrap: wrap;
+}
